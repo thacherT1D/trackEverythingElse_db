@@ -8,6 +8,6 @@ The server will be here X
 ##Getting Started
 The DB should be created, migrated, and seeded before starting the server or client.
 
-```createdb track_everything_else```
-```knex migrate:latest```
-```knex seed:run```
+```createdb track_everything_else
+knex migrate:latest
+knex seed:run```
